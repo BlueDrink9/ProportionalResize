@@ -32,7 +32,7 @@ function! ProportionalResize#Record#RecordDimensions()
 endfunction
 
 function! s:TriggerCursorHold()
-    call feedkeys(":\<Esc>", 'n')
+    call feedkeys("\<Esc>:\<Esc>", 'n')
 endfunction
 
 function! s:AfterResize()
